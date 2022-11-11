@@ -7,12 +7,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Pedido', url: '/folder/Pedido', icon: 'qr-code' },
-    { title: 'Pagamento', url: '/folder/Pagamento', icon: 'receipt' },
+    { title: 'Pagamento', url: '/folder/Pagamento', icon: 'checkmark-done' },
     { title: 'Saldo', url: '/folder/Saldo', icon: 'wallet' },
-    { title: 'Movimento', url: '/folder/Movimento', icon: 'list' },
-    { title: 'Transferências', url: '/folder/Transferências', icon: 'swap-horizontal' },
-    { title: 'Carregamentos', url: '/folder/Carregamentos', icon: 'magnet' },
+    { title: 'Histórico', url: '/folder/Histórico', icon: 'receipt' },
+    { title: 'Transferência', url: '/folder/Transferência', icon: 'swap-horizontal' },
+    { title: 'Recarga', url: '/folder/Recarga', icon: 'magnet' },
   ];
-  public labels = ['Ajuda', 'versão'];
+  public labels = ['Ajuda', 'Versão'];
   constructor() {}
 }
