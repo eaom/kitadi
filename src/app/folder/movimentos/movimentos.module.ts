@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RecargaPageRoutingModule } from './recarga-routing.module';
+import { MovimentosPageRoutingModule } from './movimentos-routing.module';
 
-import { RecargaPage } from './recarga.page';
+import { MovimentosPage } from './movimentos.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RecargaPageRoutingModule
+    MovimentosPageRoutingModule
   ],
-  declarations: [RecargaPage]
+  declarations: [MovimentosPage]
 })
-export class RecargaPageModule {}
+export class MovimentosPageModule {}

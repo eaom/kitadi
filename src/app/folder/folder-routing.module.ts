@@ -17,10 +17,6 @@ const routes: Routes = [
     loadChildren: () => import('./pedido/pedido.module').then( m => m.PedidoPageModule)
   },
   {
-    path: 'saldo',
-    loadChildren: () => import('./saldo/saldo.module').then( m => m.SaldoPageModule)
-  },
-  {
     path: 'historico',
     loadChildren: () => import('./historico/historico.module').then( m => m.HistoricoPageModule)
   },
@@ -29,8 +25,8 @@ const routes: Routes = [
     loadChildren: () => import('./transferencia/transferencia.module').then( m => m.TransferenciaPageModule)
   },
   {
-    path: 'recarga',
-    loadChildren: () => import('./recarga/recarga.module').then( m => m.RecargaPageModule)
+    path: 'movimentos',
+    loadChildren: () => import('./movimentos/movimentos.module').then( m => m.MovimentosPageModule)
   }
 ];
 

@@ -3,16 +3,17 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
-})
+ })
 export class AppComponent {
   public appPages = [
-    { title: 'Pedido', url: '/folder/Pedido', icon: 'qr-code' },
-    { title: 'Pagamento', url: '/folder/Pagamento', icon: 'checkmark-done' },
-    { title: 'Saldo', url: '/folder/Saldo', icon: 'wallet' },
-    { title: 'Histórico', url: '/folder/Histórico', icon: 'receipt' },
-    { title: 'Transferência', url: '/folder/Transferência', icon: 'swap-horizontal' },
-    { title: 'Recarga', url: '/folder/Recarga', icon: 'magnet' },
+    { title: 'Início', url: '/folder/Início', icon: 'home' },
+    { title: 'Pedir', url: '/folder/Pedir', icon: 'qr-code' },
+    { title: 'Pagar', url: '/folder/Pagar', icon: 'wallet' },
+    { title: 'Transferir', url: '/folder/Transferir', icon: 'swap-horizontal' },
+    { title: 'Movimentos', url: '/folder/Movimentos', icon: 'list' },
+    { title: 'Configurar', url: '/folder/Configurar', icon: 'settings' },
+    { title: 'Saír', url: '/folder/Saír', icon: 'exit' },
   ];
-  public labels = ['Ajuda', 'Versão'];
+  public labels = ['Sobre'];
   constructor() {}
 }
